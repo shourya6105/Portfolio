@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("c:\Users\shour\OneDrive\Pictures\20230722_125716.jpg"); 
+    background-size: cover;
+    background-position: center;
+    color: #ebe5e5;
+  }
+  .bg-img {
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+  }
+  .navbar {
+    overflow: hidden;
+    position: static;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: white ;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+    transition: background-color 0.1s; 
+  }
+
+  .navbar a:hover {
+    background-color:rgb(0, 174, 255);
+    color:black;
+  }
+
+  .navbar a:active {
+    background-color: black; 
+  }
+
+
+  .container {
+
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(8, 0, 0, 0.5); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(240, 236, 236, 0.3); 
+  }
+  h1 {
+    color: #fff;
+    text-align: center;
+  }
+  h2 {
+    color: #36342e; 
+  }
+  h3 {
+    color: #ccc;
+  }
+  p {
+    margin-bottom: 10px;
+    color: #ddd;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .contact-info {
+    margin-top: 20px;
+  }
+  .contact-info a {
+    color: #d6d0a8; 
+    text-decoration: none;
+  }
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  .logo img {
+    width: 40px;
+  }
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .logo img {
+    width: 50px; 
+    height: auto; 
+  }
+    .navbar button {
+      float: right;
+      display: block;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 20px;
+      background-color: red;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .navbar button:hover {
+      background-color:black;
+    }
+  footer {
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    @media only screen and (max-width: 600px) {
+      .main-text {
+        left: 2%;
+        width: 65%;
+      }
+      .main-text h1 {
+        font-size: 24px;
+      }
+      .main-text p {
+        font-size: 14px;
+      }
+      .navbar {
+        padding: 5px;
+      }
+      .navbar a {
+        font-size: 13px;
+        padding: 9px;
+      }
+      .main-text button {
+        font-size: 14px;
+        padding: 6px 16px;
+      }
+      .logo img {
+        width: 40px;
+      }
+     footer {
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    }
+</style>
+</head>
+<body>
+  <div class="bg-img">
+    <div class="navbar">
+      <a href="#home">Hom</a>
+      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      <a class="nav-link active" aria-current="page" href="about.html">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#blog">Blog</a>
+      <button id="resumeButton">RESUME</button> 
+    </div>
+  </div>
+  <div class="logo">
+    <img src="   ">
+
+<div class="container">
+  <h1>About</h1>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate and dedicated student pursuing Bachelor In Technology(B.Tech) with a keen interest in exploring various facets of computer science. With a strong foundation in programming, software development, and database management, I aspire to contribute meaningfully to the ever-evolving field of technology.</p>
+  </section>
+
+  <section id="education" style="text-align: right;">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Bachelor In Technology(B.Tech)</strong><br>
+          Rayat Bahra University, Mohali <br>
+          Expected Graduation: <july, 2027>
+      </li>
+      <li><strong>Higher Secondary Education (12th Grade)</strong><br>
+          [K.V SUNJUWAN ], [SUNJUWAN , JAMMU] under CBSE Board<br>
+          Year of Completion: [2023]
+      </li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: C, C++, Java,</li>
+      <li>Web Development: HTML, CSS, JavaScript</li>
+      <li>Database Management: SQL, MySQL, NoSQL</li>
+      <li>Problem-Solving and Analytical Skills</li>
+      <li>Team Collaboration and Communication</li>
+    </ul>
+  </section>
+
+  <section id="projects" style="text-align: right;">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Student Management System</strong><br>
+          Developed a comprehensive student management system using Java and MySQL, allowing administrators to manage student records, course details, and grades efficiently.
+      </li>
+      <li><strong>E-commerce Website</strong><br>
+          Designed and implemented an e-commerce website using HTML, CSS, and JavaScript, enabling users to browse products, add items to cart, and complete purchases securely.
+      </li>
+      <li><strong>Library Management Application</strong><br>
+          Created a library management application in C++, enabling librarians to manage book inventory, issue and return books, and generate reports on library activities.
+      </li>
+      <li><strong>travel website (TRAVELdiaries)</strong><br>
+        Designed and implemented an Travelling website using HTML, CSS, and JavaScript, enabling users to browse Destinations,Great experiences, and complete privacy and security.
+      </li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Awarded the <strong>Bronze medal</strong> for outstanding performance in Badminton Compitition.</li>
+      <li>Secured [RANK-5th] in [Green Olympiad].</li>
+      <li>Participated in [Event/Competition/Workshop] and received commendation for [Your Role/Contribution].</li>
+    </ul>
+  </section>
+
+  <section id="certifications" style="text-align: right;">
+    <h2>Certifications</h2>
+    <ul>
+      <li><strong>Build a momery-card game using Block Chain</strong><br>
+          Issuing Organization: Crewsphere: ICP India Hub <br>
+          Date of Completion: 16, NOV, 2023
+      </li>
+    </ul>
+  </section>
+
+  <section id="extracurricular">
+    <h2>Extracurricular Activities</h2>
+    <ul>
+      <li>Member of the <strong>Student Council</strong> at <strong>KENDRIYA VIDYALAYA SUNJUWAN and served as CAPTAIN of TAGORE HOUSE</strong>.</li>
+    </ul>
+  </section>
+
+  <section id="contact" style="text-align: right;">
+    <h2>Contact Information</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:shouryakantsharma@gmail.com">shouryakantsharma@gmail.com</a><br>
+         Phone: 6005094540<br>
+         LinkedIn: <a href="    ">LinkedIn</a><br>
+         GitHub: <a href="    ">GitHub</a>
+      </p>
+    </div>
+  </section>
+</div>
+<footer>
+  &copy; 2024 Shourya Kant Sharma Portfolio &#9829;
+</footer>
+
+
+</body>
+</html>
